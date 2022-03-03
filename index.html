@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>War Card Game</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="header-container">
+			<h1>War Card Game</h1>
+		</div>
+		<div class="button-container">
+			<button class="button"><a href="https://en.wikipedia.org/wiki/War_(card_game)" target="_blank">Rules</a></button>
+			<button type="button" name="button" id="draw" class="button">Draw Cards</button>
+			<button type="button" name="button" id="play-again" class="button">Play again!</button>
+		</div>
+		<div class="p-container">
+			<p class="shuffling" >shuffling the cards...</p>
+		</div>
+		<div id="game-over-container" class="">
+			<p class="game-over "></p>
+		</div>
+		<main>
+			<div>
+				<h2 id="h2-player"></h2>
+				<img id='player1' src="" alt="">
+			</div>
+			<p id="time-for-war" class="time-for-war hidden"></p>
+			<div>
+				<h2 id="h2-bot"></h2> 
+				<img id='bot' src="" alt="">
+			</div>
+		</main>
+		<section>
+			<div>
+				<h4>Player Card Counter</h4> 
+				<span id="player1-counter" class="player1-counter"></span>
+			</div>
+			<h3>Who won?</h3>
+			<div>
+				<h4>Bot Card Counter</h4>
+				<span id="bot-counter" class="bot-counter"></span>
+			</div>
+		</section>
+		
+		
+
+		<!-- <audio controls loop>
+			<source src="horse.ogg" type="audio/ogg">
+			<source src="horse.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		  </audio> -->
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

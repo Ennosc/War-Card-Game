@@ -1,0 +1,104 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  background-color: rgb(246,241,232);
+  color: rgb(9,24,40);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+}
+.header-container {
+ margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 8.7rem;
+
+}
+a{
+  text-decoration: none;
+}
+.button-container{
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+button {
+  background-color: rgb(9,24,40); /* Green */
+  border: none;
+  color: rgb(255,255,255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.78rem;
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: rgb(30,43,62);
+  color: rgb(255,255,255);
+  cursor: pointer;
+}
+a{
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+.p-container {
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+ }
+ .game-over-container {
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+ }
+main{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.time-for-war{
+  font-size: 2.6rem;
+}
+div h2{
+  margin: 0 auto;
+}
+.hidden{
+  display: none;
+}
+section{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.6rem;
+}
+.player1-counter{
+  font-weight: 600;
+}
+.bot-counter{
+  font-weight: 600;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
